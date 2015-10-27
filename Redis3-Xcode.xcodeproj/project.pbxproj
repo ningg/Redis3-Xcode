@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213E47111BDF144A009DAF36 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 213E47101BDF144A009DAF36 /* README.md */; settings = {ASSET_TAGS = (); }; };
 		21D7CF271BDE7C7500A98981 /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = 21D7CCF71BDE7C7500A98981 /* async.c */; settings = {ASSET_TAGS = (); }; };
 		21D7CF281BDE7C7500A98981 /* async.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D7CCF91BDE7C7500A98981 /* async.o */; settings = {ASSET_TAGS = (); }; };
 		21D7CF291BDE7C7500A98981 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 21D7CCFA1BDE7C7500A98981 /* CHANGELOG.md */; settings = {ASSET_TAGS = (); }; };
@@ -280,7 +281,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		21D7CCDF1BDE7C5600A98981 /* Redis3-Xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Redis3-Xcode"; path = "/Users/guoning/ningg/github/Redis3-Xcode/build/Debug/Redis3-Xcode"; sourceTree = "<absolute>"; };
+		213E470F1BDF140F009DAF36 /* Redis3-Xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Redis3-Xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
+		213E47101BDF144A009DAF36 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		21D7CCE91BDE7C7500A98981 /* 00-RELEASENOTES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "00-RELEASENOTES"; sourceTree = "<group>"; };
 		21D7CCEA1BDE7C7500A98981 /* BUGS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BUGS; sourceTree = "<group>"; };
 		21D7CCEB1BDE7C7500A98981 /* CONTRIBUTING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING; sourceTree = "<group>"; };
@@ -939,6 +941,7 @@
 				21D7CE1F1BDE7C7500A98981 /* Makefile */,
 				21D7CE201BDE7C7500A98981 /* MANIFESTO */,
 				21D7CE211BDE7C7500A98981 /* README */,
+				213E47101BDF144A009DAF36 /* README.md */,
 				21D7CE221BDE7C7500A98981 /* README.rst */,
 				21D7CE231BDE7C7500A98981 /* redis.conf */,
 				21D7CE241BDE7C7500A98981 /* runtest */,
@@ -948,6 +951,7 @@
 				21D7CE281BDE7C7500A98981 /* src */,
 				21D7CEC51BDE7C7500A98981 /* tests */,
 				21D7CF151BDE7C7500A98981 /* utils */,
+				213E470F1BDF140F009DAF36 /* Redis3-Xcode */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1783,7 +1787,7 @@
 			);
 			name = "Redis3-Xcode";
 			productName = "Redis3-Xcode";
-			productReference = 21D7CCDF1BDE7C5600A98981 /* Redis3-Xcode */;
+			productReference = 213E470F1BDF140F009DAF36 /* Redis3-Xcode */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -1906,6 +1910,7 @@
 				21D7D0251BDE7C7600A98981 /* zipmap.c in Sources */,
 				21D7CF451BDE7C7600A98981 /* jemalloc.c in Sources */,
 				21D7CFC01BDE7C7600A98981 /* ae_kqueue.c in Sources */,
+				213E47111BDF144A009DAF36 /* README.md in Sources */,
 				21D7CF3C1BDE7C7600A98981 /* bitmap.c in Sources */,
 				21D7D01D1BDE7C7600A98981 /* t_string.c in Sources */,
 				21D7CFAD1BDE7C7600A98981 /* lundump.c in Sources */,
@@ -2110,6 +2115,7 @@
 				21D7CCE81BDE7C5600A98981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
