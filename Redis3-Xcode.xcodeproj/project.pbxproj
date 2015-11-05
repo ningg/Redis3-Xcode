@@ -683,7 +683,7 @@
 		21D7CE891BDE7C7500A98981 /* redis-sentinel */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "redis-sentinel"; sourceTree = "<group>"; };
 		21D7CE8A1BDE7C7500A98981 /* redis-server */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "redis-server"; sourceTree = "<group>"; };
 		21D7CE8B1BDE7C7500A98981 /* redis-trib.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = "redis-trib.rb"; sourceTree = "<group>"; };
-		21D7CE8C1BDE7C7500A98981 /* redis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = redis.c; sourceTree = "<group>"; };
+		21D7CE8C1BDE7C7500A98981 /* redis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = redis.c; sourceTree = "<group>"; };
 		21D7CE8D1BDE7C7500A98981 /* redis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redis.h; sourceTree = "<group>"; };
 		21D7CE8E1BDE7C7500A98981 /* redis.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = redis.o; sourceTree = "<group>"; };
 		21D7CE8F1BDE7C7500A98981 /* redisassert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redisassert.h; sourceTree = "<group>"; };
