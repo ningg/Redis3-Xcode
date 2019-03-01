@@ -18,7 +18,7 @@ Xcode下查看 Redis3 的源码
 
 到此，即可在Xcode下查看Redis的源码了。
 
-##Xcode快捷键
+## Xcode快捷键
 
 查看代码
 
@@ -26,7 +26,11 @@ Xcode下查看 Redis3 的源码
 |:--|:--|:--|
 |cmd + shift + O|按 struct 名称、文件名称，查询||
 
-##参考来源
+更多细节，参考：
+
+* [Redis 设计与实现：使用Xcode 查看 Redis 源码](http://ningg.top/redis-lesson-2-source-code-review-in-xcode/)
+
+## 参考来源
 
 * [https://github.com/antirez/redis/issues/2009]
 * [Build Makefile Projects with Xcode]
